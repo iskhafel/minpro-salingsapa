@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .nav-border {
+    @apply border-b-2 border-black;
+  }
+
+  .contact-button {
+    @apply flex justify-center px-4 py-2 mx-auto text-xl text-white bg-orange-600 rounded-lg hover:bg-orange-900 xl:justify-start xl:mx-12;
+  }
+
+  .input-text {
+    @apply px-6 py-3 border border-black rounded outline-none;
+  }
+
+  .home-button {
+    @apply items-center px-4 py-2 mt-4 mb-3 text-white bg-orange-600 rounded-lg hover:bg-orange-900;
+  }
+
+  .fav-menu {
+    @apply w-full mx-auto rounded-lg;
+  }
+
+  .footer-icon {
+    @apply bg-[#cbb89d] pt-1 max-w-full h-auto;
+  }
+
+  .footer-text {
+    @apply flex items-center justify-between py-1 mx-12 bg-[#cbb89d];
+  }
+
+  .about-text {
+    @apply text-xl text-center xl:px-12 xl:line-clamp-4;
+  }
+
+  .menu-text {
+    @apply flex items-center justify-between py-3 mx-12;
+  }
+
+  .order-card {
+    @apply my-6 scale-90 shadow-custom aspect-auto hover:scale-100 xl:scale-75 xl:hover:scale-90;
+  }
+
+  .order-button {
+    @apply px-4 py-2 text-xl text-white bg-orange-600 hover:bg-orange-900 rounded-xl;
+  }
+
+  .order-text {
+    @apply flex flex-row justify-between mt-4;
+  }
+}
