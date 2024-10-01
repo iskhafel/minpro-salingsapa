@@ -1,10 +1,10 @@
-# MinPro SalingSapa
+# SalingSapa
 
 [Live Demo](https://minpro-salingsapa.netlify.app/)
 
 ## Overview
 
-MinPro SalingSapa is a mini project developed as part of the [Assignment - 11] Front-End Bootcamp. This project showcases the implementation of front-end development skills using HTML, CSS (with Tailwind CSS), and a small portion of JavaScript.
+SalingSapa is a mini project developed as part of the [Assignment - 11] Front-End Bootcamp. This project showcases the implementation of front-end development skills using HTML, CSS (with Tailwind CSS), and a small portion of JavaScript.
 
 ## Features
 
